@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:text="Are you sure you want to delete this class? Once you erase this class you will never see your photos again. Please write the exact name of the class you want to delete to proceed."
+        android:paddingTop="70dp"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/deleteET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name of the class you want to delete."
+        android:paddingTop="200dp"
+        android:paddingLeft="10dp"/>
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="250dp"
+        android:text="Delete"/>
+
+</RelativeLayout>
